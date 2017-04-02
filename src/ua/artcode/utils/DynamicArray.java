@@ -1,4 +1,4 @@
-package ua.artcode.week1.candidates;
+package ua.artcode.utils;
 
 import java.util.Arrays;
 

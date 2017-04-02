@@ -1,16 +1,19 @@
-package ua.artcode.week1.candidates;
+package ua.artcode.week1.candidates.service;
+
+import ua.artcode.utils.DynamicArray;
+import ua.artcode.week1.candidates.model.Candidate;
 
 /**
  * @author Serhii Bilobrov
  * @since 1.7
  */
-public class CandidateDb {
+public class CandidateService {
+
     private DynamicArray array;
 
-    public CandidateDb(int size) {
+    public CandidateService(int size) {
         array = new DynamicArray();
     }
-
 
     public boolean add(Candidate candidate) {
         if(candidate == null){
